@@ -8,5 +8,5 @@ bool bettingGame(std::vector<int> l) {
     return false;
   }
 
-  return  s%l.size()==0 ;
+  return s % (int) l.size() == 0;
 }
